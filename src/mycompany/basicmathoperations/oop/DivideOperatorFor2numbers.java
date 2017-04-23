@@ -19,8 +19,8 @@ public class DivideOperatorFor2numbers extends OperatorFor2numbers implements Di
 	public DivideOperatorFor2numbers(float _number1, float number2) {
 		super(_number1,number2);	// NOTE 1st the parent's constructor executes
 		System.out.println("parent's number1 is " + super.number1);
-		System.out.println("_number1:" + _number1);
-		System.out.println("number2 Sabrina says whatever:" + number2);
+		System.out.println("_number1: " + _number1);
+		System.out.println("number2: " + number2);
 	}
 	
 	@Override
